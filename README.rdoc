@@ -1,0 +1,3 @@
+= devise_paramsaveable
+
+Has devise[http://github.com/plataformatec/devise] save the value of a particular query parameter (if it's available) to a user when s/he is authenticated.
