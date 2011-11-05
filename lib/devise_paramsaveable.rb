@@ -3,7 +3,7 @@ unless defined?(Devise)
 end
 require 'devise_paramsaveable'
 
-Devise.add_module :lastseenable, :model => 'devise_paramsaveable/model'
+Devise.add_module :paramsaveable, :model => 'devise_paramsaveable/model'
 
 module DeviseParamsaveable
 end

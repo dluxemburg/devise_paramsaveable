@@ -1,9 +1,11 @@
-require 'devise_lastseenable/hooks/lastseenable'
+require 'devise_paramsaveable/hooks/paramsaveable'
 
 module Devise
   module Models
-    module Lastseenable
-      self.savable_params = []
+    module DeviseParamsaveable
+      def saveable_params
+        return []
+      end
     end
   end
 end
