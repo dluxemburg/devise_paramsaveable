@@ -2,7 +2,7 @@ require 'devise_paramsaveable/hooks/paramsaveable'
 
 module Devise
   module Models
-    module DeviseParamsaveable
+    module Paramsaveable
       def saveable_params
         return []
       end
